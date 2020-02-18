@@ -1,0 +1,190 @@
+
+body{
+  margin: 0;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+header {
+  background-color:#400698;
+    overflow-x: hidden;
+    .filet-droit{
+        margin-top: -12px;
+        margin-right: -100px;
+        margin-left: 20px;
+        height: 9px;
+        width: 96px;
+        background-image: url("../Ressources/Filet_cible_horizontal.svg");
+    }
+    li {
+        margin-left: 30px;
+        text-transform: uppercase;
+    }
+    #logo-menu {
+        background-color: white;
+        height: 92.5px;
+        width: 263.75px;
+        margin-top: 37.5px;
+        margin-left: -30px;
+        img {
+            width: 207.5px;
+            height: 60px;
+            margin-left: 37.5px;
+            margin-top: 16.25px;
+            background-color: white;
+        }
+    }
+}
+
+
+//couleur banniere
+.banner{
+  background-color: #400698;
+}
+
+//style titre banniere
+.banner h1{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 57px;
+  background-color: #3f0697;
+}
+
+//position des titres banniere
+.titre-banner{
+  margin-top: 120px;
+  z-index: 5;
+}
+
+
+//style image banniere
+.image-banner img{
+  z-index: 6;
+}
+
+//titre depassant sur l'image de la banniere
+#titreSurImage{
+  background-color: #3f0697;
+  width: 170%;
+}
+
+//style du contenair de la banniere
+#section1 {
+    background-color: #3f0697;
+}
+
+//contenair de l'image de la banniere
+#imageSection1 {
+  margin-top: 48px;
+  margin-bottom: -46px;
+}
+
+//style section 2
+#section2{
+  margin-top: 75px;
+}
+
+//style fils d'ariane
+#filArianne {
+    text-align: center;
+}
+
+//style text du fils d'ariene
+#filArianne p{
+    color: #8c8596;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    span {
+        color: #302d33;
+    }
+    span span:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+//style de la liste pour trier
+.list-tri-actu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 50px;
+}
+
+//style des elements de la liste pour trier
+.list-tri-actu li{
+  padding: 0px 13px 0px 13px;
+  color: #8c8596;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+//style des elements de la liste pour trier hover
+.list-tri-actu li:hover{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+//style pour la listes des cartes
+.liste-cartes{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #fafdfd;
+  padding: 40px;
+}
+
+//style du type de carte 1
+.cartes-actu-type-1{
+  margin: 0px 30px 0px 30px;
+  width: 313px;
+  height: 419px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+//style du type de carte 2
+.cartes-actu-type-2{
+  margin: 0px 30px 0px 30px;
+  width: 313px;
+  height: 419px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+//style h3 cartes actu2
+.liste-cartes h3{
+  padding: 30px;
+  color: #161919;
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.liste-cartes span{
+  padding: 30px;
+  width: 113px;
+  height: 11px;
+  color: #302d33;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.liste-cartes p{
+  padding: 30px;
+  color: #8c8596;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+}
