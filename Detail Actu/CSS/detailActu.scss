@@ -10,11 +10,22 @@
     font-family: Raleway-Italic;
     src: url(../FONT/Raleway/Raleway-Italic.ttf);
 }
+@font-face {
+    font-family: Josefin-Sans-Semi-Bold;
+    src: url(../FONT/Josefin-Sans/JosefinSans-Bold.ttf);
+}
+
 .pushUp {
     margin-top: 74px;
 }
 .pushUp25 {
     margin-top: 25px;
+}
+.pushUp50 {
+    margin-top: 50px;
+}
+.pushUp10 {
+    margin-top: 10px;
 }
 #filArianne {
     color: #8c8596;
@@ -93,4 +104,77 @@
 }
 #imgPersonnes {
     width: 100%;
+}
+.h3SousTitre {
+    color: #302d33;
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.pSousTitre {
+    color: #8c8596;
+    font-family: Josefin-Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.pSousTitreBold {
+    color: #8c8596;
+    font-family: Josefin-Sans-Semi-Bold;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.noMargin {
+    margin-bottom: 0;
+}
+#fondBleu {
+    background-color: #cee9ea;
+}
+.pBlue {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 0 45px 0 45px;
+    text-align: center;
+    color: #8c8596;
+    font-family: Josefin-Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.showroom {
+    color: #8c8596;
+    font-family: Josefin-Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17.97px;
+}
+#lien {
+    color: #302d33;
+    font-family: Josefin-Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17.97px;
+}
+#traitGris2 {
+    background-color: #ececf4;
+    width: 100%;
+    height: 1px;
+}
+.date {
+    color: #302d33;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.01px;
+    i {
+        padding-right: 10px;
+    }
+}
+.les-reseau {
+    text-align: right;
+    i {
+        margin-left: 25px;
+    }
 }
