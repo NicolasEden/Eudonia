@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Josefin-Sans;
+  src: url(../FONT/Josefin-Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(../FONT/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Italic;
+  src: url(../FONT/Raleway/Raleway-Italic.ttf);
+}
+
+.pushUp {
+  margin-top: 74px;
+}
+
+.pushUp25 {
+  margin-top: 25px;
+}
+
+#filArianne {
+  color: #8c8596;
+  font-family: Josefin-Sans;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#filArianne span {
+  color: #302d33;
+}
+
+#filArianne span span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#pSection2 {
+  color: #8c8596;
+  font-family: Josefin-Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+#titreArticle {
+  color: #302d33;
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+#pArticle {
+  color: #8c8596;
+  font-family: Josefin-Sans;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#titreListe {
+  color: #8c8596;
+  font-family: Josefin-Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.96px;
+  font-weight: 700;
+}
+
+#Liste {
+  list-style-type: circle;
+  font-family: Josefin-Sans;
+  font-weight: 300;
+  line-height: 21.96px;
+  color: #8c8596;
+  font-size: 16px;
+}
+
+#afterListe {
+  color: #8c8596;
+  font-family: Josefin-Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.94px;
+}
+
+#traitGris {
+  width: 1px;
+  min-height: 58px;
+  background-color: #808093;
+  padding: 0;
+}
+
+#pLegend {
+  color: #302d33;
+  font-family: Raleway-Italic;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.87px;
+  padding-top: 10px;
+  margin-left: -20px;
+}
+
+#imgOuvrier {
+  width: 100%;
+}
+
+#imgPersonnes {
+  width: 100%;
+}
+/*# sourceMappingURL=detailActu.css.map */
