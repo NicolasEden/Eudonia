@@ -1,0 +1,22 @@
+#footer{
+    padding: 29px 37px 29px 37px;
+}
+
+p{
+    font-size: 12px;
+    color: #8c8596;
+
+}
+
+span::before {
+    content:"";
+    display: block;
+}
+
+#footer .row .row{
+    margin-left: 56px;
+}
+#footer img{
+    width: 118px;
+    height: 51px;
+}
