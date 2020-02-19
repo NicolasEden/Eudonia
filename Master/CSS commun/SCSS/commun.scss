@@ -1,3 +1,4 @@
+@import '../../Font/font.css';
 h1{
     font-size: 51px;
     line-height: 57px;
@@ -105,3 +106,62 @@ span::before {
     font-family: Raleway-Bold;
     src: url("../../Font/Raleway/Raleway-Bold.ttf");
 }
+
+
+//////////DEBUT style commun banniere
+//couleur banniere
+.banner{
+    background-color: #400698;
+  }
+  
+  //style titre banniere
+  .main{
+    color: white;
+    font-family: Raleway;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 57px;
+    background-color: #3f0697;
+  }
+  
+  //style titre banniere
+  #main{
+    color: white;
+    font-family: Raleway;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 57px;
+    background-color: #3f0697;
+  }
+  
+  //position des titres banniere
+  .titre-banner{
+    height: 120px;
+    margin-top: 120px;
+    z-index: 5;
+  }
+  
+  
+  //style image banniere
+  .image-banner img{
+    z-index: 6;
+  }
+  
+  //titre depassant sur l'image de la banniere
+  #titreSurImage{
+    background-color: #3f0697;
+    width: 170%;
+  }
+  
+  //style du contenair de la banniere
+  #section1 {
+      background-color: #3f0697;
+  }
+  
+  //contenair de l'image de la banniere
+  #imageSection1 {
+    margin-top: 48px;
+    margin-bottom: -46px;
+  }
+//////////FIN style commun banniere
+//qsdqsd

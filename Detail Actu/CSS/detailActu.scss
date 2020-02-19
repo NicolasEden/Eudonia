@@ -1,19 +1,4 @@
-@font-face {
-    font-family: Josefin-Sans;
-    src: url(../FONT/Josefin-Sans/JosefinSans-Regular.ttf);
-}
-@font-face {
-    font-family: Raleway;
-    src: url(../FONT/Raleway/Raleway-Regular.ttf);
-}
-@font-face {
-    font-family: Raleway-Italic;
-    src: url(../FONT/Raleway/Raleway-Italic.ttf);
-}
-@font-face {
-    font-family: Josefin-Sans-Semi-Bold;
-    src: url(../FONT/Josefin-Sans/JosefinSans-Bold.ttf);
-}
+@import url('../.././Master/Font/font.css');
 
 .pushUp {
     margin-top: 74px;
@@ -33,9 +18,9 @@
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-    span {
+    a {
         color: #302d33;
-        span:hover {
+        a:hover {
             text-decoration: underline;
             cursor: pointer;
         }

@@ -1,23 +1,4 @@
-@font-face {
-  font-family: Josefin-Sans;
-  src: url(../FONT/Josefin-Sans/JosefinSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(../FONT/Raleway/Raleway-Regular.ttf);
-}
-
-@font-face {
-  font-family: Raleway-Italic;
-  src: url(../FONT/Raleway/Raleway-Italic.ttf);
-}
-
-@font-face {
-  font-family: Josefin-Sans-Semi-Bold;
-  src: url(../FONT/Josefin-Sans/JosefinSans-Bold.ttf);
-}
-
+@import url("../.././Master/Font/font.css");
 .pushUp {
   margin-top: 74px;
 }
@@ -42,11 +23,11 @@
   text-align: center;
 }
 
-#filArianne span {
+#filArianne a {
   color: #302d33;
 }
 
-#filArianne span span:hover {
+#filArianne a a:hover {
   text-decoration: underline;
   cursor: pointer;
 }

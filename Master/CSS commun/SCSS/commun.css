@@ -1,0 +1,152 @@
+@import url(c:\Users\FlorianD\Desktop\Eudonia-Vf\Eudonia\Master\Font\font.css);
+h1 {
+  font-size: 51px;
+  line-height: 57px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Raleway-Regular";
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 47px;
+  font-weight: 700;
+  color: #302d33;
+  font-family: "Raleway-Regular";
+  margin: 0 0 27px 0;
+}
+
+h3 {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #302d33;
+  font-family: "Raleway-Regular";
+  margin: 0 0 28px 0;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #8c8596;
+  font-family: "Josephin-Light";
+}
+
+.button-type-1 {
+  border-radius: 14px;
+  padding: 6px 12px 6px 12px;
+  font-size: 14px;
+  background-color: #8c8596;
+  color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: 1px solid #8c8596;
+  font-family: "Raleway-Regular";
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-type-1:hover {
+  background-color: #ffffff;
+  color: #8c8596;
+}
+
+#footer {
+  padding: 29px 37px 29px 37px;
+}
+
+#footer p {
+  font-size: 12px;
+  color: #8c8596;
+  line-height: 11.95px;
+}
+
+span::before {
+  content: "";
+  display: block;
+}
+
+#footer .row .row {
+  margin-left: 56px;
+}
+
+#footer img {
+  width: 118px;
+  height: 51px;
+}
+
+#footer .offset-5 {
+  text-align: right;
+}
+
+@font-face {
+  font-family: Josephin-Light;
+  src: url("../../Font/Josephin-Sans/JosefinSans-Light.ttf");
+}
+
+@font-face {
+  font-family: Josephin-SemiBold;
+  src: url("../../Font/Josephin-Sans/JosefinSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Josephin-Regular;
+  src: url("../../Font/Josephin-Sans/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("../../Font/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../../Font/Raleway/Raleway-Bold.ttf");
+}
+
+.banner {
+  background-color: #400698;
+}
+
+.main {
+  color: white;
+  font-family: Raleway;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 57px;
+  background-color: #3f0697;
+}
+
+#main {
+  color: white;
+  font-family: Raleway;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 57px;
+  background-color: #3f0697;
+}
+
+.titre-banner {
+  height: 120px;
+  margin-top: 120px;
+  z-index: 5;
+}
+
+.image-banner img {
+  z-index: 6;
+}
+
+#titreSurImage {
+  background-color: #3f0697;
+  width: 170%;
+}
+
+#section1 {
+  background-color: #3f0697;
+}
+
+#imageSection1 {
+  margin-top: 48px;
+  margin-bottom: -46px;
+}
+/*# sourceMappingURL=commun.css.map */

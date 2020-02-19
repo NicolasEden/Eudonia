@@ -1,3 +1,5 @@
+@import url('../.././Master/Font/font.css');
+
 
 body{
   margin: 0;
@@ -39,61 +41,6 @@ header {
 }
 
 
-//couleur banniere
-.banner{
-  background-color: #400698;
-}
-
-//style titre banniere
-.main{
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 51px;
-  font-weight: 700;
-  line-height: 57px;
-  background-color: #3f0697;
-}
-
-//style titre banniere
-#main{
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 51px;
-  font-weight: 700;
-  line-height: 57px;
-  background-color: #3f0697;
-}
-
-//position des titres banniere
-.titre-banner{
-  height: 120px;
-  margin-top: 120px;
-  z-index: 5;
-}
-
-
-//style image banniere
-.image-banner img{
-  z-index: 6;
-}
-
-//titre depassant sur l'image de la banniere
-#titreSurImage{
-  background-color: #3f0697;
-  width: 170%;
-}
-
-//style du contenair de la banniere
-#section1 {
-    background-color: #3f0697;
-}
-
-//contenair de l'image de la banniere
-#imageSection1 {
-  margin-top: 48px;
-  margin-bottom: -46px;
-}
-
 //style section 2
 #section2{
   margin-top: 75px;
@@ -107,7 +54,7 @@ header {
 //style text du fils d'ariene
 #filArianne p{
     color: #8c8596;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Josefin Sans;
     font-size: 16px;
     font-weight: 300;
     a {
@@ -137,7 +84,7 @@ header {
   text-align: center;
   margin: 0px 13px 0px 13px;
   color: #8c8596;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -147,7 +94,7 @@ header {
 
 //style des elements de la liste pour trier hover
 .list-tri-actu li:hover{
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-weight: 700;
 }
 
@@ -197,7 +144,7 @@ header {
 .liste-cartes h3{
   padding: 30px;
   color: #161919;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-size: 21px;
   font-weight: 400;
   line-height: 24px;
@@ -212,7 +159,7 @@ header {
 .liste-cartes h7{
   padding: 30px;
   color: #302d33;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Josefin-Sans;
   font-size: 14px;
   font-weight: 300;
 }
@@ -221,23 +168,22 @@ header {
 .liste-cartes p{
   padding: 30px;
   color: #8c8596;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Josefin-Sans;
   font-size: 16px;
   font-weight: 300;
   line-height: 18px;
 }
 
-//contenaire du bouton "plus d'aactualité"
+//contenaire du bouton "plus d'actualité"
 .btn-more-actu{
   text-align: center;
 }
 
-//style du bouton "plus d'aactualité"
+//style du bouton "plus d'actualité"
 #bouttonFormulaire {
     border-radius: 14px;
     background-color: #8c8596;
     color: #ffffff;
-    font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
     padding: 8px 13px 6px 12px;
@@ -277,7 +223,7 @@ header {
 .social-dropdown-item{
   color: darkgrey;
   padding: 10px 0px 0px 0px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Josefin-Sans;
 }
 
 //text des links hover

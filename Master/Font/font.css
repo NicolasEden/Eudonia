@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Raleway;
+  src: url(./Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: Josefin-Sans;
+  src: url(./Josephin-Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Josefin-Sans-semi-bold;
+  src: url(./Josephin-Sans/JosefinSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Josefin-Sans-light;
+  src: url(./Josephin-Sans/JosefinSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Italic;
+  src: url(./Raleway/Raleway-Italic.ttf);
+}
+
+@font-face {
+  font-family: Raleway-light;
+  src: url(./Raleway/Raleway-Light.ttf);
+}
+/*# sourceMappingURL=font.css.map */

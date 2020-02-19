@@ -5,14 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/detailActu.css">
+    <link rel="stylesheet" type="text/css" href="../../Master/CSS commun/SCSS/commun.css">
     <title>Detail Actualités</title>
 </head>
 <body>
+    <section id="section1">
+        <div class="container banner">
+            <div class="row">
+              <!--Titre banniere-->
+                <div class="col-sm-4 offset-1 titre-banner">
+                  <span class="main">Actualités</span>
+                  <h1>
+                    <span class="typer" id="main" data-colors="white" data-words="psychologie,scolarité" data-delay="100" data-deleteDelay="1000"></span>
+                  </h1>
+                </div>
+                <!--image banniere-->
+                <div class="col-sm-7 container-banner-immage">
+                    <img class="img-fluid" id="imageSection1" src="../../master-actu/ressources/img/immage-banner.png">
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="section2" class="pushUp">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p id="filArianne"><span><span href="#" >Acceuil</span> > <span href="#" >Actualités</span> ></span> Préparer votre entrée dans l'enseignement supérieur</p>
+                    <p id="filArianne"><span><a href="#" >Acceuil</a> > <a href="../../master-actu/master-actu.html">Actualités</a> ></span> Préparer votre entrée dans l'enseignement supérieur</p>
                 </div>
             </div>
             <div class="row pushUp">
@@ -127,9 +145,30 @@
             </div>
         </div>
     <section>
-
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="../../Master/Footer/eden-logo.png" alt="eden school logo">
+                </div>
+                <div class="col-md-11">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p>
+                                <span>Un site réalisé par EDEN School</span>
+                                <span>L’école Digitale et Numérique des 14 / 18 ans</span>
+                            </p>
+                            <p> 1ère école en France qui forme des élèves motivé.e.s par les métiers du numérique dès la fin de la 3ème sur le modèle pédagogique des écoles de production.</p>
+                        </div>
+                        <div class="col-md-2 offset-5">
+                            <p>Mentions légales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     <script src="https://kit.fontawesome.com/5703a1c6f6.js" crossorigin="anonymous"></script>
     <script src="../JS/detailActu.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -1,21 +1,7 @@
+@import url('../../Master/Font/font.css');
 $colorPrimary: #400698;
 $breadcrumb-divider: quote(">");
-@font-face {
-    font-family: Raleway;
-    src: url(../FONT/Raleway/Raleway-Regular.ttf);
-}
-@font-face {
-    font-family: Josefin-Sans;
-    src: url(../FONT/Josefin-sans/JosefinSans-Regular.ttf);
-}
-@font-face {
-    font-family: Josefin-Sans-semi-bold;
-    src: url(../FONT/Josefin-sans/JosefinSans-SemiBold.ttf);
-}
-@font-face {
-    font-family: Josefin-Sans-light;
-    src: url(../FONT/Josefin-sans/JosefinSans-Light.ttf);
-}
+
 .pushUp {
     margin-top: 74px;
 }
