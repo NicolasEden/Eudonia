@@ -87,6 +87,11 @@ span::before {
 }
 
 @font-face {
+    font-family: Josephin-SemiBold;
+    src: url("../../Font/Josephin-Sans/JosefinSans-SemiBold.ttf");
+}
+
+@font-face {
     font-family: Josephin-Regular;
     src: url("../../Font/Josephin-Sans/JosefinSans-Regular.ttf");
 }
@@ -94,4 +99,9 @@ span::before {
 @font-face {
     font-family: Raleway-Regular;
     src: url("../../Font/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url("../../Font/Raleway/Raleway-Bold.ttf");
 }
