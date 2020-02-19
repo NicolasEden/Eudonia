@@ -112,18 +112,30 @@ body{
         font-weight: 700;
         margin-bottom: 60px;
     }
+    .col-md-5{
+        margin-bottom: 35px;
+    }
+
+    h2#After{
+        margin-bottom: 0px;
+    }
 }
 
 .Num-Bold{
     font-family: Raleway-Bold;
     font-size: 38px;
     color: #302d33;
-    line-height: 0px;
 }
 
 .Text-Bold{
     font-family: Josephin-SemiBold;
+    color: #8c8596;
 }
+
+.Text-Bold::before{
+    display: inline-block;
+}
+
 .align-Right{
     text-align: right;
 }
@@ -134,4 +146,33 @@ body{
 .Sub-Title-Num{
     font-family: Raleway-Regular;
     font-size: 21px;
+    color: #302d33;
+    font-weight: 400;
+}
+
+#contact{
+    background-color: #400698;
+    padding: 110px 0 110px 0;
+    text-align: center;
+    h2{
+        color: white;
+        width: 100%;
+        margin-bottom : 38px;
+    }
+    p{
+        width: 80%;
+        color: white;
+        margin: auto;
+        margin-bottom:25px;
+        line-height: 18px;
+    }
+    #contactButton{
+        border-radius: 14px;
+        border: 1px solid #f7f7f7;
+        padding: 8px 15px ;
+        background-color: transparent;
+        color: white;
+        font-size: 14px;
+        line-height: 25.92px;
+    }
 }
