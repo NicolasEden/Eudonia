@@ -207,3 +207,44 @@ header {
     margin-top: 38px;
     margin-bottom: 82px;
 }
+
+//style des resaux sociaux
+.social-network-attached{
+  width: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  text-align: center;
+}
+
+//style du container des icons
+.icon-social-network-attached{
+  display: flex;
+  flex-direction: column;
+}
+
+//style des icons
+.icon-social-network-attached > .fab{
+  color: #302d33;
+  padding: 8px 0px 8px 0px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+//text des links
+.social-dropdown-item{
+  color: darkgrey;
+  padding: 10px 0px 0px 0px;
+}
+
+//text des links hover
+.social-dropdown-item:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+//style de la petite bar
+.img-social-network-attached > svg{
+  height: 10em;
+  width: auto;
+}

@@ -60,7 +60,20 @@ function actucreator(code) {
 
 }
 
-
 function convert(nb){
     return (1600/1280)*nb;
 }
+
+var socialDiv = document.getElementsByClassName("social-dropdown-item");
+for (var i = 0; i < socialDiv.length; i++) {
+  socialDiv[i].style.display = "none";
+}
+  function SocialDropdownItem(event) {
+      for (var i = 0; i < event.target.children.length; i++) {
+        if (event.target.children[i].style.display == "none") {
+          event.target.children[i].style.display = "block";
+        }else {
+          event.target.children[i].style.display = "none";
+        }
+      }
+    }
