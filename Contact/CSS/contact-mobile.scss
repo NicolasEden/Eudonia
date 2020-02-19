@@ -1,0 +1,19 @@
+$colorPrimary: #400698;
+@media screen and (max-width: 640px) {
+    #titreSection1 {
+        z-index: 2;
+        background-color: $colorPrimary;
+        width: 250px;
+        padding-top: 10px;
+        margin-left: 30px;
+    }
+    #imageSection1 {
+        margin-bottom: 50px;
+        width: 90%;
+        margin-left: 10%;
+        z-index: 1;
+    }
+    #colonneSection1 {
+        z-index: 1;
+    }
+  }
