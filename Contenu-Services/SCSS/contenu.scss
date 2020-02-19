@@ -1,5 +1,4 @@
 $colorPrimary: #400698;
-$breadcrumb-divider: quote(">");
 
 body{
     margin: 0;
@@ -56,4 +55,15 @@ body{
 
 #pSection2{
         text-align: center;
+}
+#section2{
+    h2{
+        text-align: right;
+    }
+    .question{
+        font-family: Josephin-Regular;
+        color: #8c8596;
+        font-weight: 300;
+        font-size: 16px;
+    }
 }
