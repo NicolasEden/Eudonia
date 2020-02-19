@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Master-actu" content="page principal actualité">
+    <title>Actu</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d37f3a054.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../../Master/CSS commun/CSS/commun.css">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+
+    <header>
+        <div class="container-fluid" id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparant navbar-static-top">
+                <div id="logo-menu">
+                    <img src="./Ressources/Logo.png" alt="">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div style="margin-top:-15px;" class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="menu2" class="navbar-nav mr-auto"></ul>
+                    <ul id="menu" class="navbar-nav list-inline">
+                        <li class="nav-item navbar-right">
+                            <a class="nav-link" href="#">Enfants <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Adultes <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Le Cabinet <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Actualités <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filet-droit">
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--banner-->
+    <section id="section1">
+        <div class="container banner">
+            <div class="row">
+              <!--Titre banniere-->
+                <div class="col-sm-4 offset-1 titre-banner">
+                  <span class="main">Actualités</span>
+                  <h1>
+                    <span class="typer" id="main" data-colors="white" data-words="psychologie,scolarité" data-delay="100" data-deleteDelay="1000"></span>
+                  </h1>
+                </div>
+                <!--image banniere-->
+                <div class="col-sm-7 container-banner-immage">
+                    <img class="img-fluid" id="imageSection1" src="ressources/img/immage-banner.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--fils d'ariane-->
+    <section id="section2" class="pushUp">
+        <div class="container">
+            <div class="row">
+                <div id="filArianne" class="col-12">
+                    <p id="pFilArianne"><span><a href="../Home/index.html">Accueil</a> > </span>Actualités psychologie et scolarité</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--list d'option pour trier les cartes-->
+    <section id="section3">
+        <div class="container">
+            <div class="row">
+                <ul class="list-tri-actu col-12">
+                  <li>TOUS</li>
+                  <li>ORIENTATION SCOLAIRE</li>
+                  <li>SALON</li>
+                  <li>PSYCHOLOGIE</li>
+                  <li>THEME 4</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--list de cartes d'actualité-->
+    <section id="cartesListes">
+
+  </section>
+
+    <!--bouton plus d'actu-->
+    <section class="container">
+      <div class="row">
+        <div class="col-12 btn-more-actu">
+          <button id="bouttonFormulaire" onclick="actuGenerator()">Plus d’actualités</button>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-md-1">
+                <img src="ressources/img/logo-footer.png" alt="eden school logo">
+            </div>
+            <div class="col-md-11">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p>
+                            <span>Un site réalisé par EDEN School</span>
+                            <span>L’école Digitale et Numérique des 14 / 18 ans</span>
+                        </p>
+                        <p> 1ère école en France qui forme des élèves motivé.e.s par les métiers du numérique dès la fin de la 3ème sur le modèle pédagogique des écoles de production.</p>
+                    </div>
+                    <div class="col-md-2 offset-5">
+                        <p>Mentions légales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--social media attaché-->
+    <div class="social-network-attached">
+        <div class="icon-social-network-attached">
+          <!--icon twitter-->
+          <i class="fab fa-twitter" onclick="SocialDropdownItem(event)">
+            <a class="social-dropdown-item" target="_blank" href="https://twitter.com/helenehr?lang=fr">Hélène Ribeiro</a>
+          </i>
+          <!--icon linkedin-->
+          <i class="fab fa-linkedin-in" onclick="SocialDropdownItem(event)">
+            <a class="social-dropdown-item" target="_blank" href="https://www.linkedin.com/in/carole-baudron-852a6a116/">Carole Baudron</a>
+            <a class="social-dropdown-item" target="_blank" href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-ribeiro-horna-75ab2413/">Hélène Ribeiro</a>
+          </i>
+          <!--icon facebook-->
+          <i class="fab fa-facebook-f" onclick="SocialDropdownItem(event)">
+            <a class="social-dropdown-item" target="_blank" href="https://www.facebook.com/carole.baudron.psychologue/">Carole Baudron</a>
+            <a class="social-dropdown-item" target="_blank" href="https://www.facebook.com/helene.ribeiro.formatrice/">Hélène Ribeiro</a>
+          </i>
+        </div>
+        <div class="img-social-network-attached">
+          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="50" viewBox="0 0 9 30" class="injected-svg" data-src="/static/media/filet-cible-verticale.b91276e6.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="forme" stroke-width="1" stroke="black" fill="none">
+              <g id="circles">
+                <circle cy="5" cx="4" r="1" style="stroke-width: 0.2"></circle>
+                <circle cy="5" cx="4" r="0.1" style="stroke-width: 0.2"></circle>
+              </g>
+              <line x1="4" y1="6" x2="4" y2="40" style="stroke-width: 0.2"></line>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+    <!--script Bootstrap-->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--script de la page-->
+    <script type="text/javascript" src="JS/script.js"></script>
+  </body>
+</html>
