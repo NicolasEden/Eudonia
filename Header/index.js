@@ -62,7 +62,7 @@ function menuPossibilities(e){
                 newDiv.style.width = "230px"
                 newDiv.style.position = "absolute";
                 newDiv.style.marginLeft = e.target.offsetLeft-60+"px";
-                newDiv.style.marginTop = "-"+e.target.offsetTop-335+"px";
+                newDiv.style.marginTop = "-"+e.target.offsetTop-30+"px";
                 newDiv.style.backgroundColor = "#ffffff"
                 newDiv.style.paddingTop = "15px"
                 newDiv.style.paddingLeft = "15px"
