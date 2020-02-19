@@ -1,4 +1,4 @@
-@import url("../.././Master/Font/font.css");
+@import url("../../Master/Font/font.css");
 body {
   margin: 0;
 }
@@ -42,52 +42,6 @@ header #logo-menu img {
   background-color: white;
 }
 
-.banner {
-  background-color: #400698;
-}
-
-.main {
-  color: white;
-  font-family: Raleway;
-  font-size: 51px;
-  font-weight: 700;
-  line-height: 57px;
-  background-color: #3f0697;
-}
-
-#main {
-  color: white;
-  font-family: Raleway;
-  font-size: 51px;
-  font-weight: 700;
-  line-height: 57px;
-  background-color: #3f0697;
-}
-
-.titre-banner {
-  height: 120px;
-  margin-top: 120px;
-  z-index: 5;
-}
-
-.image-banner img {
-  z-index: 6;
-}
-
-#titreSurImage {
-  background-color: #3f0697;
-  width: 170%;
-}
-
-#section1 {
-  background-color: #3f0697;
-}
-
-#imageSection1 {
-  margin-top: 48px;
-  margin-bottom: -46px;
-}
-
 #section2 {
   margin-top: 75px;
 }
@@ -98,7 +52,7 @@ header #logo-menu img {
 
 #filArianne p {
   color: #8c8596;
-  font-family: Josefin Sans;
+  font-family: Josefin-Sans;
   font-size: 16px;
   font-weight: 300;
 }
