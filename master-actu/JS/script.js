@@ -1,3 +1,4 @@
+
 var code;
 actuGenerator();
 function actuGenerator() {
@@ -26,7 +27,8 @@ function actucreator(code) {
   for (var i = 0; i < 3; i++) {
     var cartesActuType1 = document.createElement("div");
     if (i == 1) {
-      cartesActuType1.setAttribute("class", "cartes-actu-type-2")
+      cartesActuType1.setAttribute("class", "cartes-actu-type-2");
+      cartesActuType1.setAttribute("onclick", "window.open('../Home/index.html','_self',false)");
       listeCartes.appendChild(cartesActuType1)
       var image = document.createElement("img");
       image.setAttribute("src", code.list3[i].img);
@@ -34,7 +36,7 @@ function actucreator(code) {
       var h3cart = document.createElement("h3");
       cartesActuType1.appendChild(h3cart);
       h3cart.innerHTML = "crée en js";
-      var date = document.createElement("span");
+      var date = document.createElement("h7");
       cartesActuType1.appendChild(date);
       date.innerHTML = code.list3[i].date;
       var text = document.createElement("p");
@@ -49,7 +51,7 @@ function actucreator(code) {
       var h3cart = document.createElement("h3");
       cartesActuType1.appendChild(h3cart);
       h3cart.innerHTML = "crée en js";
-      var date = document.createElement("span");
+      var date = document.createElement("h7");
       cartesActuType1.appendChild(date);
       date.innerHTML = code.list[i].date;
       var text = document.createElement("p");
