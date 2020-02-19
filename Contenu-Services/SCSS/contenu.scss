@@ -21,19 +21,19 @@ body{
     text-align: center;
 }
 #pFilArianne {
-    margin-top: 50px;
     color: #8c8596;
     font-family: "Josephin-Light";
     font-size: 16px;
     font-weight: 300;
-    span {
+    a {
         color: #302d33;
     }
-    span span:hover {
+    span a:hover {
         text-decoration: underline;
         cursor: pointer;
     }
 }
+
 @media (max-width: 785px) {
   #titreSection1{
       margin: 0 auto 0 auto;
@@ -41,6 +41,7 @@ body{
       background-color: transparent;
   }
 }
+
 @media (max-width: 515px) {
   #titreSection1{
       margin: 0 auto 0 auto;
@@ -49,6 +50,7 @@ body{
       width: auto;
   }
 }
+
 .index1{
     z-index: 2;
 }
@@ -57,13 +59,79 @@ body{
         text-align: center;
 }
 #section2{
+    padding:74px 0 60px 0;
     h2{
         text-align: right;
     }
     .question{
-        font-family: Josephin-Regular;
+        font-family: Josephin-SemiBold;
         color: #8c8596;
         font-weight: 300;
-        font-size: 16px;
     }
+}
+
+#section3{
+    background-color: #400698;
+    padding: 60px 0 30px 0;
+    #objectif{
+        color: white;
+        font-family: Raleway-Regular;
+        width: 100%;
+        text-align: center;
+    }
+    .col-md-4{
+        text-align: center;
+        margin-bottom: 50px;
+        p{
+            color: white;
+            width: 250px;
+            margin: 0 auto 0 auto;
+            line-height: 18px;
+        }
+        img{
+            margin-bottom: 30px;
+        }
+        .objectifs{
+            font-family: Josephin-SemiBold;
+            width: 130px;
+            margin-bottom: 34px;
+        }
+        #num2{
+            width: 198px;
+        }
+        #num3{
+            width: 226px;
+        }
+    }
+}
+
+#section4{
+    text-align: center;
+    padding: 35px 0 75px 0;
+    h2{
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+}
+
+.Num-Bold{
+    font-family: Raleway-Bold;
+    font-size: 38px;
+    color: #302d33;
+    line-height: 0px;
+}
+
+.Text-Bold{
+    font-family: Josephin-SemiBold;
+}
+.align-Right{
+    text-align: right;
+}
+.align-Left{
+    text-align: left;
+}
+
+.Sub-Title-Num{
+    font-family: Raleway-Regular;
+    font-size: 21px;
 }
