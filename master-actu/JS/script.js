@@ -44,6 +44,7 @@ function actucreator(code) {
       text.innerHTML = code.list3[i].text;
     }else {
       cartesActuType1.setAttribute("class", "cartes-actu-type-1")
+      cartesActuType1.setAttribute("onclick", "window.open('../Home/index.html','_self',false)");
       listeCartes.appendChild(cartesActuType1)
       var image = document.createElement("img");
       image.setAttribute("src", code.list[i].img);

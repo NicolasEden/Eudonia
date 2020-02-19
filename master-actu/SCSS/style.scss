@@ -45,7 +45,7 @@ header {
 }
 
 //style titre banniere
-.banner h1{
+.main{
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 51px;
@@ -54,6 +54,7 @@ header {
   background-color: #3f0697;
 }
 
+//style titre banniere
 #main{
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -65,6 +66,7 @@ header {
 
 //position des titres banniere
 .titre-banner{
+  height: 120px;
   margin-top: 120px;
   z-index: 5;
 }
@@ -132,7 +134,8 @@ header {
 
 //style des elements de la liste pour trier
 .list-tri-actu li{
-  padding: 0px 13px 0px 13px;
+  text-align: center;
+  margin: 0px 13px 0px 13px;
   color: #8c8596;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
@@ -270,6 +273,7 @@ header {
 .social-dropdown-item{
   color: darkgrey;
   padding: 10px 0px 0px 0px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 //text des links hover
@@ -282,4 +286,29 @@ header {
 .img-social-network-attached > svg{
   height: 10em;
   width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+  .container-banner-immage{
+    width: 3000px;
+  }
+
+  .social-network-attached{
+    display: none;
+  }
 }
