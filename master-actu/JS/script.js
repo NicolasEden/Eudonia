@@ -1,6 +1,8 @@
 
 var code;
 actuGenerator();
+
+
 function actuGenerator() {
   var request = new XMLHttpRequest();
 
@@ -11,6 +13,8 @@ function actuGenerator() {
       console.log('Status:', this.status);
       console.log('Headers:', this.getAllResponseHeaders());
       var code = JSON.parse(this.response);
+      actucreator(code);
+      actucreator(code);
       actucreator(code);
     }
   };

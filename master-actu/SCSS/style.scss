@@ -246,6 +246,10 @@ header {
     margin-bottom: 82px;
 }
 
+#bouttonFormulaire:focus{
+  outline: none;
+}
+
 //style des resaux sociaux
 .social-network-attached{
   width: 60px;
@@ -310,5 +314,13 @@ header {
 
   .social-network-attached{
     display: none;
+  }
+
+  .list-tri-actu{
+    flex-direction: column;
+  }
+
+  .list-tri-actu li{
+    margin-top: 7px;
   }
 }
