@@ -10,8 +10,6 @@ function actuGenerator() {
 
   request.onreadystatechange = function () {
     if (this.readyState === 4) {
-      console.log('Status:', this.status);
-      console.log('Headers:', this.getAllResponseHeaders());
       var code = JSON.parse(this.response);
       actucreator(code);
       actucreator(code);
@@ -23,7 +21,6 @@ function actuGenerator() {
 }
 
 function actucreator(code) {
-  console.log(code);
   var listeCartes = document.createElement("div");
   listeCartes.setAttribute("class", "liste-cartes");
   var container = document.getElementById('cartesListes');
