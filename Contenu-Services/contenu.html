@@ -9,12 +9,46 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/c9816946cc.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
         <link rel="stylesheet" href="../Master/Font/font.css"/>
         <link rel="stylesheet" href="../Master/CSS commun/SCSS/commun.css"/>
-        <link rel="stylesheet" href="./CSS/contenu.css"/>
+        <link rel="stylesheet" href="./SCSS/contenu.css"/>
         <title>Orientation scolaire</title>
     </head>
     <body>
+        <header id="header">
+            <div class="container-fluid" id="navbar">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparant navbar-static-top">
+                    <div id="logo-menu">
+                        <img src="../../Master/Ressources/Logo.png" alt="">
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div style="margin-top:-45px;" class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul id="menu2" class="navbar-nav mr-auto"></ul>
+                        <ul id="menu" class="navbar-nav list-inline">
+                            <li class="nav-item navbar-right">
+                                <a class="nav-link" id="enfants" href="#">Enfants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="adultes" href="#">Adultes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="cabinet" href="#">Le Cabinet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="actu" href="#">Actualités</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contactH" href="../../Contact/HTML/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filet-droit d-sm-none d-none d-lg-block d-md-none text-sm-center text-md-center text-lg-right"></div>
+                </nav>
+            </div>
+        </header>
         <div id="section1">
             <div class="container">
                 <div class="row">
@@ -165,5 +199,7 @@
                 </div>
             </div>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script src="../../Master/JS/header.js" charset="utf-8"></script>
     </body>
 </html>

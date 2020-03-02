@@ -1,7 +1,7 @@
 var active;
 var abc;
 var json;
-$.getJSON('./JSON/config.json').done(function(response) {
+$.getJSON('../../Master/JSON/config.json').done(function(response) {
     json = response;
     if (window.innerWidth>=992) {
         for (var i = 0; i < json.menu.deroulant.length; i++) {
@@ -39,7 +39,6 @@ window.addEventListener('resize', function(event) {
 function menuPossibilities(e){
     if (window.innerWidth >= 992) {
         for (var b = 0; b < json.menu.deroulant.length; b++) {
-            console.log(e);
             if(e.target.id == json.menu.deroulant[b].name) {
                 if (active) {
                     active.parentNode.removeChild(active);
@@ -61,9 +60,9 @@ function menuPossibilities(e){
                 }
                 newDiv.style.width = "230px"
                 newDiv.style.position = "absolute";
+                newDiv.style.zindex = "1";
                 newDiv.style.marginLeft = e.target.offsetLeft-60+"px";
-                newDiv.style.marginTop = "-"+e.target.offsetTop-335+"px";
-                newDiv.style.backgroundColor = "#ffffff"
+                newDiv.style.marginTop = "-"+e.target.offsetTop-25+"px"; newDiv.style.backgroundColor = "#ffffff"
                 newDiv.style.paddingTop = "15px"
                 newDiv.style.paddingLeft = "15px"
                 newDiv.style.paddingRight = "15px"
