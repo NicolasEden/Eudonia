@@ -11,44 +11,79 @@
         <script src="https://kit.fontawesome.com/c9816946cc.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
         <link rel="stylesheet" href="../Master/Font/font.css"/>
-        <link rel="stylesheet" href="../Master/CSS commun/SCSS/commun.css"/>
+        <link rel="stylesheet" href="../Master/CSS commun/CSS/commun.css"/>
         <link rel="stylesheet" href="./SCSS/contenu.css"/>
         <title>Orientation scolaire</title>
     </head>
     <body>
-        <header id="header">
-            <div class="container-fluid" id="navbar">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-transparant navbar-static-top">
-                    <div id="logo-menu">
-                        <img src="../../Master/Ressources/Logo.png" alt="">
-                    </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div style="margin-top:-45px;" class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul id="menu2" class="navbar-nav mr-auto"></ul>
-                        <ul id="menu" class="navbar-nav list-inline">
-                            <li class="nav-item navbar-right">
-                                <a class="nav-link" id="enfants" href="#">Enfants</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="adultes" href="#">Adultes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="cabinet" href="#">Le Cabinet</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="actu" href="#">Actualités</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="contactH" href="../../Contact/HTML/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="filet-droit d-sm-none d-none d-lg-block d-md-none text-sm-center text-md-center text-lg-right"></div>
-                </nav>
-            </div>
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+          <a class="navbar-brand" href="#">
+              <div class="logo-container">
+                  <img src="../Master/Ressources/logo.png" alt="Logo" id="logo">
+              </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-hover="dropdown">
+            <ul class="navbar-nav ml-auto" >
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" >
+                    ENFANTS
+                  </a>
+                  <div class="dropdownT" >
+                      <a href="#" class="lien">Bilan spychologique</a>
+                      <a href="../Contenu-Services/contenu.html" class="lien">Orientation scolaire</a>
+                      <a href="#" class="lien">Accompagnement scolaire</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" >
+                    ADULTES
+                  </a>
+                  <div class="dropdownT">
+                      <a href="#" class="lien">Bilan spychologique</a>
+                      <a href="#" class="lien">Orientation scolaire</a>
+                      <a href="#" class="lien">Accompagnement scolaire</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" >
+                    LE CABINET
+                  </a>
+                  <div class="dropdownT">
+                      <a href="#" class="lien">Bilan spychologique</a>
+                      <a href="#" class="lien">Orientation scolaire</a>
+                      <a href="#" class="lien">Accompagnement scolaire</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="../master-actu/master-actu.html" aria-haspopup="true" aria-expanded="false" >
+                    ACTUALITES
+                  </a>
+                  <div class="dropdownT">
+                      <a href="../Detail Actu/HTML/detailActu.html" class="lien">Actualités 1</a>
+                      <a href="../Detail Actu/HTML/detailActu.html" class="lien">Actualités 2</a>
+                      <a href="../Detail Actu/HTML/detailActu.html" class="lien">Actualités 3</a>
+                  </div>
+                </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="../Contact/HTML/contact.html">
+                  CONTACT
+                </a>
+              </li>
+              <li class="nav-item dropdown d-md-none d-lg-block">
+                <img src="../Master/Ressources/barre.png" alt="Barre" id="barre">
+              </li>
+            </ul>
+          </div>
+        </nav>
         <div id="section1">
             <div class="container">
                 <div class="row">

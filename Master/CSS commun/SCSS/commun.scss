@@ -113,7 +113,7 @@ span::before {
 .banner{
     background-color: #400698;
   }
-  
+
   //style titre banniere
   .main{
     color: white;
@@ -123,7 +123,7 @@ span::before {
     line-height: 57px;
     background-color: #3f0697;
   }
-  
+
   //style titre banniere
   #main{
     color: white;
@@ -133,35 +133,111 @@ span::before {
     line-height: 57px;
     background-color: #3f0697;
   }
-  
+
   //position des titres banniere
   .titre-banner{
     height: 120px;
     margin-top: 120px;
     z-index: 5;
   }
-  
-  
+
+
   //style image banniere
   .image-banner img{
     z-index: 6;
   }
-  
+
   //titre depassant sur l'image de la banniere
   #titreSurImage{
     background-color: #3f0697;
     width: 170%;
   }
-  
+
   //style du contenair de la banniere
   #section1 {
       background-color: #3f0697;
   }
-  
+
   //contenair de l'image de la banniere
   #imageSection1 {
     margin-top: 48px;
     margin-bottom: -46px;
   }
 //////////FIN style commun banniere
-//qsdqsd
+
+//header
+#navbar{
+    padding : 10px 0 10px 0;
+    position:fixed;
+    width:100%;
+    z-index : 6;
+    transition : 0.5s;
+}
+#navbar a.nav-link{
+    color : white;
+}
+#logo{
+    width: 166px;
+}
+#barre{
+    margin-bottom : -12px;
+}
+.lien:hover{
+    text-decoration :none;
+    color :black;
+}
+
+.logo-container{
+    background-color : white;
+    padding :15px 25px 15px 10px;
+}
+.dropdownT{
+    display:none;
+    position :absolute;
+    z-index : 1;
+}
+.dropdown-hover:hover .dropdownT{
+    display:block;
+}
+.dropdownT a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color : white;
+}
+
+//CONTACT
+#contact{
+    background-color: #400698;
+    padding: 110px 0 110px 0;
+    text-align: center;
+    h2{
+        color: white;
+        width: 100%;
+        margin-bottom : 38px;
+    }
+    p{
+        width: 80%;
+        color: white;
+        margin: auto;
+        margin-bottom:25px;
+        line-height: 18px;
+    }
+    #contactButton{
+        border-radius: 14px;
+        border: 1px solid #f7f7f7;
+        background-color: transparent;
+        color: white;
+        font-size: 14px;
+        line-height: 25.92px;
+        transition: 0.2s;
+    }
+    #contactButton:hover{
+        border: 1px solid #400698;
+        background-color: white;
+        color: #400698;
+        font-size: 14px;
+        line-height: 25.92px;
+    }
+}

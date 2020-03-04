@@ -5,7 +5,8 @@
         <title>Eudonia VF</title>
         <meta name="Description" content="Bodni Theme">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="./SCSS/laptop.css">
+        <link rel="stylesheet" href="../Master/CSS commun/CSS/commun.css">
+        <link rel="stylesheet" href="./CSS/laptop.css">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -14,7 +15,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
         <script src="https://kit.fontawesome.com/51def7400e.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body onscroll="scroll()">
+        <!--
         <header id="header">
             <div class="container-fluid" id="navbar">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-transparant navbar-static-top">
@@ -48,7 +50,277 @@
                 </nav>
             </div>
         </header>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="../../Master/JS/header.js" charset="utf-8"></script>
+        -->
+
+        <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+          <a class="navbar-brand" href="#">
+              <div class="logo-container">
+                  <img src="../Master/Ressources/logo.png" alt="Logo" id="logo">
+              </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-hover="dropdown">
+            <ul class="navbar-nav ml-auto" >
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" >
+                    ENFANTS
+                  </a>
+                  <div class="dropdownT" >
+                      <a href="#" class="lien">Bilan spychologique</a>
+                      <a href="../Contenu-Services/contenu.html" class="lien">Orientation scolaire</a>
+                      <a href="#" class="lien">Accompagnement scolaire</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" >
+                    ADULTES
+                  </a>
+                  <div class="dropdownT">
+                      <a href="#" class="lien">Bilan spychologique</a>
+                      <a href="#" class="lien">Orientation scolaire</a>
+                      <a href="#" class="lien">Accompagnement scolaire</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false" >
+                    LE CABINET
+                  </a>
+                  <div class="dropdownT">
+                      <a href="#" class="lien">Bilan spychologique</a>
+                      <a href="#" class="lien">Orientation scolaire</a>
+                      <a href="#" class="lien">Accompagnement scolaire</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown-hover">
+                  <a class="nav-link" href="../master-actu/master-actu.html" aria-haspopup="true" aria-expanded="false" >
+                    ACTUALITES
+                  </a>
+                  <div class="dropdownT">
+                      <a href="../Detail Actu/HTML/detailActu.html" class="lien">Actualités 1</a>
+                      <a href="../Detail Actu/HTML/detailActu.html" class="lien">Actualités 2</a>
+                      <a href="../Detail Actu/HTML/detailActu.html" class="lien">Actualités 3</a>
+                  </div>
+                </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="../Contact/HTML/contact.html">
+                  CONTACT
+                </a>
+              </li>
+              <li class="nav-item dropdown d-md-none d-lg-block">
+                <img src="../Master/Ressources/barre.png" alt="Barre" id="barre">
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section id="section1">
+            <div class="container-fluid">
+
+            </div>
+        </section>
+        <section id="NousVousAccompagnons">
+            <div id="case" class="container-fluid pushUp">
+                <div class="row">
+                    <div id="specialCase" class="col-sm-2 offset-md-3">
+                        <h1 id="titreAccompagnons">Nous vous accompagnons</h1>
+                    </div>
+                    <div class="col-sm-3 petite-case">
+                        <h3 class="pushUp">Bilan</h3><h3> psychologique</h3>
+                        <p class="pushUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="button-type-1">En savoir plus</button>
+                    </div>
+                    <div class="col-sm-3 petite-case">
+                        <h3 class="pushUp">Orientation</h3><h3> professionnelle</h3>
+                        <p class="pushUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="button-type-1">En savoir plus</button>
+                    </div>
+                </div>
+                <div class="row pushUp">
+                    <div id="filtreBlanc" class="col-sm-3 offset-md-2 petite-case">
+                        <h3 class="pushUp">Orientation</h3><h3> scolaire</h3>
+                        <p class="pushUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="button-type-1">En savoir plus</button>
+                    </div>
+                    <div class="col-sm-3 petite-case">
+                        <h3 class="pushUp">Accompagnement</h3><h3> scolaire</h3>
+                        <p class="pushUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <button class="button-type-1">En savoir plus</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+
+        </section>
+        <section id="section3" class="container-fluid section-home-page">
+            <div class="row">
+              <!--Titre section-->
+                <div class="col-sm-4 offset-3 titre-section">
+                  <p class="main-2">Pour mon avenir</p>
+                  <span class="main">J’explore toutes les pistes</span>
+                </div>
+                    <!--image section-->
+                <div class="col-sm-5 container-banner-immage">
+                  <img class="img-fluid imageSection1"  src="../master-actu/ressources/img/immage-banner.png">
+                </div>
+            </div>
+        </section>
+        <section id="section4" class="section-home-page-2">
+
+        </section>
+        <section id="section5" class="container-fluid section-home-page">
+                <div class="row">
+                  <!--Titre section-->
+                    <div class="col-sm-4 offset-3 titre-section">
+                      <p class="main-2">J’ai toujours été manuel</p>
+                      <span class="main">Je suis devenu chef de chantier</span>
+                    </div>
+                    <!--image section-->
+                    <div class="col-sm-5 container-banner-immage">
+                        <img class="img-fluid imageSection1" src="ressources/chantier.png">
+                    </div>
+                </div>
+        </section>
+        <section id="section6" class="section-home-page-2">
+
+        </section>
+        <section id="section7" class="container-fluid section-home-page-blue">
+                <div class="row">
+                  <!--Titre section-->
+                    <div class="col-sm-4 offset-3 titre-section">
+                      <p class="main-2-blue">Je ne voulais pas attendre la retraite</p>
+                      <span class="main-blue">Pour vivre de ma passion</span>
+                    </div>
+                    <!--image section-->
+                    <div class="col-sm-5 container-banner-immage">
+                        <img class="img-fluid imageSection1"  src="ressources/passion.png">
+                    </div>
+                </div>
+        </section>
+        <section id="section8" class="section-home-page-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>texte sur le cabinet ?</h2>
+                    </div>
+                    <div class="col-md-6">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section9">
+          <div class="row">
+            <h2>Actualités</h2>
+            <div class="liste-cartes">
+              <div class="cartes-actu-type-2" onclick="window.open('../Home/index.html','_self',false)">
+                <img src="../master-actu/ressources/img/image-actu.png" alt="">
+                <h3>Préparer votre entrée dans l'enseignement supérieur</h3>
+                <h6>20 Novembre 2017</h6>
+                <p>Pour préparer votre entrée dans l'enseignement supérieur, rendez-vous dès maintenant sur le site Terminales 2017-2018</p>
+              </div>
+              <div class="cartes-actu-type-2" onclick="window.open('../Home/index.html','_self',false)">
+                <img src="../master-actu/ressources/img/image-actu.png" alt="">
+                <h3>Préparer votre entrée dans l'enseignement supérieur</h3>
+                <h6>20 Novembre 2017</h6>
+                <p>Pour préparer votre entrée dans l'enseignement supérieur, rendez-vous dès maintenant sur le site Terminales 2017-2018</p>
+              </div>
+              <div class="cartes-actu-type-2" onclick="window.open('../Home/index.html','_self',false)">
+                <img src="../master-actu/ressources/img/image-actu.png" alt="">
+                <h3>Préparer votre entrée dans l'enseignement supérieur</h3>
+                <h6>20 Novembre 2017</h6>
+                <p>Pour préparer votre entrée dans l'enseignement supérieur, rendez-vous dès maintenant sur le site Terminales 2017-2018</p>
+              </div>
+              <div class="col-sm-12 btn-more-actu">
+                <button class="button-type-1 btn-more-actu" onclick="actuGenerator()">Toutes les actualités</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div id="contact">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  </p>
+                <button type="button" name="button" id="contactButton">Demandez un rendez-vous</button>
+            </div>
+        </div>
+
+        <!--footer-->
+        <div class="container-fluid" id="footer">
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="../Master/Footer/eden-logo.png" alt="eden school logo">
+                </div>
+                <div class="col-md-11">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p>
+                                <span>Un site réalisé par EDEN School</span>
+                                <span>L’école Digitale et Numérique des 14 / 18 ans</span>
+                            </p>
+                            <p> 1ère école en France qui forme des élèves motivé.e.s par les métiers du numérique dès la fin de la 3ème sur le modèle pédagogique des écoles de production.</p>
+                        </div>
+                        <div class="col-md-2 offset-5">
+                            <p>Mentions légales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-network-attached">
+          <div class="icon-social-network-attached">
+            <i class="fab fa-twitter" onclick="SocialDropdownItem(event)">
+              <a class="social-dropdown-item" target="_blank" href="https://twitter.com/helenehr?lang=fr">Hélène Ribeiro</a>
+            </i>
+            <i class="fab fa-linkedin-in" onclick="SocialDropdownItem(event)">
+              <a class="social-dropdown-item" target="_blank" href="https://www.linkedin.com/in/carole-baudron-852a6a116/">Carole Baudron</a>
+              <a class="social-dropdown-item" target="_blank" href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-ribeiro-horna-75ab2413/">Hélène Ribeiro</a>
+            </i>
+            <i class="fab fa-facebook-f" onclick="SocialDropdownItem(event)">
+              <a class="social-dropdown-item" target="_blank" href="https://www.facebook.com/carole.baudron.psychologue/">Carole Baudron</a>
+              <a class="social-dropdown-item" target="_blank" href="https://www.facebook.com/helene.ribeiro.formatrice/">Hélène Ribeiro</a>
+            </i>
+
+          </div>
+
+          <div class="img-social-network-attached">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="50" viewBox="0 0 9 30" class="injected-svg" data-src="/static/media/filet-cible-verticale.b91276e6.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="forme" stroke-width="1" stroke="black" fill="none">
+                <g id="circles">
+                  <circle cy="5" cx="4" r="1" style="stroke-width: 0.2"></circle>
+                  <circle cy="5" cx="4" r="0.1" style="stroke-width: 0.2"></circle>
+                </g>
+                <line x1="4" y1="6" x2="4" y2="40" style="stroke-width: 0.2"></line>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="scroll-point">
+          <ul>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section1"><div class="activeDot"></div></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#NousVousAccompagnons"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section3"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section4"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section5"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section6"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section7"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section8"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#section9"></a></li>
+            <li><a class="linkDot" onclick="changeDot(event)" href="#contact"></a></li
+          </ul>
+        </div>
+
+        <script src="./JS/js.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </body>
 </html>
