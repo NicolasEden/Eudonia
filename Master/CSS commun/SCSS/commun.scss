@@ -241,3 +241,24 @@ span::before {
         line-height: 25.92px;
     }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track:active {
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: grey;
+}
