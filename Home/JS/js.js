@@ -157,7 +157,7 @@ for (var i = 0; i < socialDiv.length; i++) {
         }
     }
 
-    function changeDot(event) {
+    /*function changeDot(event) {
         suprDot();
         var dot = document.createElement("div");
         dot.setAttribute("class", "activeDot");
@@ -166,7 +166,7 @@ for (var i = 0; i < socialDiv.length; i++) {
             lien[i].setAttribute("onclick","changeDot(event)");
         }
         event.target.removeAttribute("onclick");
-    }
+    }*/
 
 
     function suprDot(){
@@ -181,4 +181,29 @@ for (var i = 0; i < socialDiv.length; i++) {
 
     function scrollStep() {
       setTimeout(function(){ window.scrollBy(0, 1000); }, 3000);
+    }
+    $("#case").mousemove(function(e) {
+      parallaxIt(e, ".left", -5);
+      parallaxIt2(e, ".right", -5);
+    });
+
+    function parallaxIt(e, target, movement) {
+      var $this = $(".left");
+      var relX = e.pageX - $this.offset().left;
+      var relY = e.pageY - $this.offset().top;
+
+      TweenMax.to(target, 1, {
+        x: (relX - $this.width() / 2) / $this.width() * movement,
+        y: (relY - $this.height() / 2) / $this.height() * movement
+      });
+    }
+    function parallaxIt2(e, target, movement) {
+      var $this = $(".right");
+      var relX = e.pageX - $this.offset().left;
+      var relY = e.pageY - $this.offset().top;
+
+      TweenMax.to(target, 1, {
+        x: (relX - $this.width() / 2) / $this.width() - movement,
+        y: (relY - $this.height() / 2) / $this.height() - movement
+      });
     }
