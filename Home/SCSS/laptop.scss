@@ -1,54 +1,62 @@
 @import url("../../Master/Font/font.css");
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+}
+#carou {
+    overflow-y:hidden;
+}
 #container {
   position: absolute;
-  height: 100vh;
   width: 100vw;
-  display: flex
+  display: flex;
+  justify-content: center;
 }
 img#s{
     position: absolute;
     padding-top: 283px;
-    padding-left: 252px;
+    margin-left: -752px;
 }
 img#petitCaca {
     position: absolute;
     padding-top: 202px;
-    padding-left: 363px;
+    margin-left: -663px;
 }
 img#o{
     position: absolute;
     padding-top: 453px;
-    padding-left: 404px;
+    margin-left: -504px;
 }
 img#r{
     position: absolute;
     padding-top: 308px;
-    padding-left: 563px;
+    margin-left: -363px;
 }
 img#i{
     position: absolute;
     padding-top: 275px;
-    padding-left: 689px;
+    margin-left: -189px;
 }
 img#e {
     position: absolute;
     padding-top: 56px;
-    padding-left: 732px;
+    margin-left: -32px;
 }
 img#n{
     position: absolute;
     padding-top: 124px;
-    padding-left: 854px;
+    padding-left: 254px;
 }
 img#t{
     position: absolute;
     padding-top: 393px;
-    padding-left: 1001px;
+    padding-left: 601px;
 }
 img#e2{
     position: absolute;
     padding-top: 468px;
-    padding-left: 1121px;
+    padding-left: 921px;
 }
 img#r2{
     position: absolute;
@@ -134,7 +142,9 @@ header {
 .pushUp {
     padding-Top: 27px;
 }
-
+.navbar-nav{
+    margin-right:25px;
+}
 #section1{
     background-color : rgba(64,6,152,1);
     height : 100vh;
@@ -259,6 +269,8 @@ header {
   justify-content: center;
   background-color: #fafdfd;
   flex-wrap: wrap;
+  min-height: 100vh;
+
   h2{
       display : block;
       width : 100%;
@@ -270,6 +282,12 @@ header {
 #section9 .row .liste-cartes{
   padding : 70px 0 45px 0;
 }
+#section9 {
+    .row{
+        margin:0;
+    }
+}
+
 
 //style du type de carte 1
 .cartes-actu-type-1{
@@ -315,7 +333,7 @@ header {
 
 
 //style pour la date de l'actu
-.liste-cartes h7{
+.liste-cartes h6{
   padding: 30px;
   color: #302d33;
   font-family: Josefin-Sans;
@@ -468,7 +486,7 @@ header {
   width: 60px;
   position: fixed;
   left: 20px;
-  bottom: 10vh;
+  bottom: 18vh;
   text-align: center;
 }
 
@@ -507,6 +525,7 @@ header {
     background-color: #fafdfd;
     padding-Top: 200px;
     padding-bottom: 200px;
+    overflow-x: hidden;
 }
 #NousVousAccompagnons {
   height: 100vh;

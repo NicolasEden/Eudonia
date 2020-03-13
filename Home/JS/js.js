@@ -1,15 +1,12 @@
-
-
-
-
-
-
-
-
 var code;
 actuGenerator();
-
-
+function jump(hash) { location.replace("#" + hash) }
+document.addEventListener('mousewheel', function(event){
+    if (window.scrollY < 757) {
+        jump("section2")
+    }
+})
+document.getElementById('carous').style.height = window.innerHeight+"px";
 function actuGenerator() {
   var request = new XMLHttpRequest();
 
@@ -180,11 +177,11 @@ for (var i = 0; i < socialDiv.length; i++) {
 
 
     function scrollStep() {
-      setTimeout(function(){ window.scrollBy(0, 1000); }, 3000);
+      window.scrollBy(0, 1000);
     }
     $("#case").mousemove(function(e) {
-      parallaxIt(e, ".left", -5);
-      parallaxIt2(e, ".right", -5);
+      parallaxIt(e, ".left", -2);
+      parallaxIt2(e, ".right", -0.5);
     });
 
     function parallaxIt(e, target, movement) {
@@ -206,4 +203,11 @@ for (var i = 0; i < socialDiv.length; i++) {
         x: (relX - $this.width() / 2) / $this.width() - movement,
         y: (relY - $this.height() / 2) / $this.height() - movement
       });
+    }
+    function wheel($div,deltaY){
+       var step = 30;
+       var pos = $div.scrollTop();
+       var nextPos = pos + (step*(-deltaY))
+       console.log("DelatY: " + deltaY + ", Step: " + step + ", nextPos: " + nextPos);
+       $div.scrollTop(nextPos);
     }
