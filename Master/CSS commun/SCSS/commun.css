@@ -1,4 +1,4 @@
-@import url(c:\Users\FlorianD\Desktop\Eudonia-Vf\Eudonia\Master\Font\font.css);
+@import url(c:\Users\flofl\Desktop\Eudonia2\Eudonia\Master\Font\font.css);
 h1 {
   font-size: 51px;
   line-height: 57px;
@@ -148,5 +148,114 @@ span::before {
 #imageSection1 {
   margin-top: 48px;
   margin-bottom: -46px;
+}
+
+#navbar {
+  padding: 10px 0 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#navbar a.nav-link {
+  color: white;
+}
+
+#logo {
+  width: 166px;
+}
+
+#barre {
+  margin-bottom: -12px;
+}
+
+.lien:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-container {
+  background-color: white;
+  padding: 15px 25px 15px 10px;
+}
+
+.dropdownT {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-hover:hover .dropdownT {
+  display: block;
+}
+
+.dropdownT a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+}
+
+#contact {
+  background-color: #400698;
+  padding: 110px 0 110px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  color: white;
+  width: 100%;
+  margin-bottom: 38px;
+}
+
+#contact p {
+  width: 80%;
+  color: white;
+  margin: auto;
+  margin-bottom: 25px;
+  line-height: 18px;
+}
+
+#contact #contactButton {
+  border-radius: 14px;
+  border: 1px solid #f7f7f7;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  line-height: 25.92px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#contact #contactButton:hover {
+  border: 1px solid #400698;
+  background-color: white;
+  color: #400698;
+  font-size: 14px;
+  line-height: 25.92px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track:active {
+  background: lightgray;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: grey;
 }
 /*# sourceMappingURL=commun.css.map */
