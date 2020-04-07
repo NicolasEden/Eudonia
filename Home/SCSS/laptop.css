@@ -687,13 +687,27 @@ header {
   }
 }
 
-/*
-@media screen and (min-width:0px) and (max-width: 992px) {
-    #menu {
-        width: 400px;
-    }
-    #menu2 {
-        width: 400px;
-    }
-}*/
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  #NousVousAccompagnons {
+    height: auto;
+  }
+  .liste-cartes {
+    min-height: auto;
+  }
+  .section-home-page {
+    height: auto;
+  }
+  .section-home-page-blue {
+    height: auto;
+  }
+  .section-home-page-2 {
+    height: auto;
+  }
+  #contact {
+    height: auto;
+  }
+  #section1 {
+    height: auto;
+  }
+}
 /*# sourceMappingURL=laptop.css.map */
