@@ -1,4 +1,4 @@
-var active;
+var active; 
 var abc;
 var json;
 $.getJSON('./JSON/config.json').done(function(response) {
