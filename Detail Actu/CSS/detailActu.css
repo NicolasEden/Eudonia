@@ -32,6 +32,10 @@
   cursor: pointer;
 }
 
+#section1 {
+  padding-top: 50px;
+}
+
 #pSection2 {
   color: #8c8596;
   font-family: Josefin-Sans;
