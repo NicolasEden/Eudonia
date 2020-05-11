@@ -1,4 +1,4 @@
-
+ 
     var cities = L.layerGroup();
 
 	L.marker([48.825315, 2.325666]).addTo(cities);
